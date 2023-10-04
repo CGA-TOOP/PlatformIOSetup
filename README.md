@@ -1,4 +1,4 @@
-# PlatformIO nd Pololu3piplus32U4 Setup
+# PlatformIO and Pololu3piplus32U4 Setup
 Follow the steps below to install Platform IO, and program your robot for the first time.
 
 ## Configure Platform IO
