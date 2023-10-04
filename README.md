@@ -2,7 +2,7 @@
 Follow the steps below to install Platform IO, and program your robot for the first time.
 
 ## Configure Platform IO
-1. Before we install the Platform IO extension we need to ensure we have the python virtual environment module installed.  In order to do this lets add the universe apt repository.  Run the following command in a terminal window.  When prompted, select enter.
+1. Before we install the Platform IO extension, we need to ensure we have the python virtual environment module installed.  In order to do this we need to first add the universe apt repository.  Run the following command in a terminal window.  When prompted, select enter.
 ```
 sudo add-apt-repository universe
 ```
@@ -12,7 +12,7 @@ sudo add-apt-repository universe
    sudo apt-get install python3-venv
 ```
 4. Launch VSCode and install the PlatformIO IDE extension.
-5. Now you can launch the platoform IO extension. If pompted, reload VSCode once Platform IO has completed the install.
+5. Now you can launch the platoform IO extension. If prompted, reload VSCode once Platform IO has completed the install.
 6. A few more steps before we start programing our robot.  Open a terminal and run the following command.  This allows you to commute to the robot once connected.
 ```
 sudo usermod -a -G dialout $USER
@@ -21,10 +21,10 @@ sudo usermod -a -G dialout $USER
 
 ## Programming your Pololu3piplus32U4 robot
 1. Open VSCode and then open the platform IO Extension.
-2. Select New Porject.
+2. Select New Project.
 3. Fill in the next menu with the options indicated below:
  ![image](https://github.com/CGA-TOOP/PlatformIOSetup/assets/67393204/968c93b7-cc63-4253-b3a9-94b1440db1fd)
-4. Once the project has been initialized compy and past the code below into the src/main.cpp file and save the file.
+4. Once the project has been initialized copy and past the code below into the src/main.cpp file and save the file.
 ```
 // This example shows how to blink the three user LEDs on the
 // 3pi+ 32U4.
@@ -65,7 +65,7 @@ board = a-star32U4
 framework = arduino
 lib_deps = pololu/Pololu3piPlus32U4@^1.1.3
 ```
-6.  Ensure you roboat is connected to your computer via USB.  Now you can selct the check mark icon at the top right and select upload.  If your upload was successfull you shoudl now see the red green and yellow LED's on your robot blinking.
+6.  Ensure you robot is connected to your computer via USB.  Now you can selct the check mark icon at the top right and select upload.  If your upload was successfull you should now see the red, green, and yellow LED's on your robot blinking.
 
 
 
